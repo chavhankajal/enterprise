@@ -1,0 +1,162 @@
+body{
+    overflow-x: hidden;
+}
+ #index-slider{
+    position: relative;
+    
+}
+#index-navbar{
+    position: absolute;
+    min-width: 100%;
+    z-index: 1;
+    padding-left: 15%;
+    padding-right: 15%;
+} 
+header p{
+    background-color:rgb(34, 33, 33);
+    color:white;
+    padding:5px 0px 5px 20px;
+    margin-bottom: 0px;
+
+}
+
+/* features css start */                                                             
+#index-section2-feature
+{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+#index-section2 div:nth-child(2) div div
+{
+    background-color: whitesmoke;
+    padding: 5% 15px;
+}
+#index-section2 div:nth-child(2) div
+{
+    margin-top: 10px;
+}
+#index-section2 div:nth-child(2) div {
+    margin-top:0%;
+    padding-top: 5%;
+}
+/* features css end */
+
+.index-left-img{
+    content: '';
+    background-image: url("../images/storage-whse.jpg");
+    background-size: cover;
+    min-height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(44, 44, 44, 0.678);
+    background-blend-mode: overlay;
+    color:white;
+
+}
+.index-right-img{
+    content: '';
+    background-image: url("../images/delivery-truck-3.png");
+    background-size: cover;
+    min-height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(44, 44, 44, 0.678);
+    background-blend-mode: overlay;
+    color:white;
+
+}
+#index-main-section div div {
+    position: relative;
+}
+#index-section3 div div p{
+    position: absolute;
+    top: 45%;
+    width: 80%;
+    left: 10%;
+    font-size:22px;
+    font-weight: bold;
+}
+#index-section4{
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#index-section4 h4
+{
+    color: white;
+    padding-top: 20px;
+}
+/* 5th section start css */
+#index-section5-branch
+{
+    text-align: center;
+    margin: 10px;
+}
+
+
+#index-section5 .index-branches-grid div div
+{
+    background-color: whitesmoke;
+    padding: 5% 15px;
+
+}
+#index-section5 .index-branches-grid div div:nth-child(2){
+    margin-top:0px;
+}
+
+/* section6 START HERE */
+#indext-section6
+{
+    background-image: url("../images/contacts.jpg");
+    min-height: 350px;
+    background-size: cover;
+    background-color: rgba(44, 44, 44, 0.678);
+    background-blend-mode: overlay;
+    background-position: center center;
+
+}
+#indext-section6 h4{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+.index-circle{
+    content: '';
+    min-width: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    max-width: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+
+
+
+}
+
+
+/* footer css start */
+.index-footer{
+    text-align: center;
+    background-color:rgba(48, 48, 47, 0.616);
+    padding:5px 0px 5px 20px;
+    margin-bottom: 0px;
+    color: white;
+}
+.right-align{
+    text-align: right;
+}
+
+.left-align{
+    text-align: left;
+}
+
+
+@media (min-width: 1032px){
+    #index-my-slides #index-my-carousel .carousel-inner{
+        height: 600px;
+    }
+} */
